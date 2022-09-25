@@ -1,19 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/globalStyles.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>TechPosters - Home</title>
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-  </body>
-  <script src="/script/database/users.js"></script>
-  <script src="/script/database/posts.js"></script>
-  <script src="/script/database/sugestUsers.js"></script>
-  <script src="index.js"></script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/globalStyles.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../../styles/navbar.css">
+  <link rel="stylesheet" href="./posts-section.css">
+  <link rel="stylesheet" href="./style_post.css">
+  <script defer src="/script/database/users.js"></script>
+  <script defer src="/script/database/posts.js"></script>
+  <script defer src="/script/database/sugestUsers.js"></script>
+  <script defer src="index.js"></script>
+  <title>TechPosters - Home</title>
+</head>
+
+<body>
+  <header>
+    <img src="../../assets/img/logo.svg" alt="">
+    <button>Sair</button>
+  </header>
+  <main>
+    <div class="post-user">
+      <div class="user-Post">
+        <img class="photo-User" src="../../assets/img/user1.svg" alt="Samuel Leão">
+        <div class="name-user">
+          <h4>Samuel Leão</h4>
+          <span>Front end Engineer</span>
+        </div>
+      </div>
+    </div>
+    <div class="inputs-post">
+      <div class="textArea">
+        <input class="title-Post" type="text">
+        <input class="text-Post" type="text">
+        <button class="postar">Postar</button>
+      </div>
+    </div>
+    </div>
+    <section class="section-posts">
+      <h2>Posts</h2>
+      <ul class="posts">
+      </ul>
+    </section>
+    <aside class="navbar">
+      <h2>Sugestões para você seguir</h2>
+      <ul>
+        <li class="navbar-items" id="3">
+          <div class="by-user"> 
+            <img class="photo-User" src="../../assets/img/user3.svg" alt="">
+            <div>
+              <h4>Carlos Lima</h4>
+              <span>UX e UI Designer</span>
+            </div>
+          </div>
+          <button class="navbar-link navbar-links">Seguir</button>
+        </li>
+        <li class="navbar-items" id="7">
+          <div class="by-user"> 
+            <img class="photo-User" src="../../assets/img/user6.svg" alt="">
+            <div>
+              <h4>Larissa Camargo</h4>
+              <span>UI Developer</span>
+            </div>
+          </div>
+          <button class="navbar-link navbar-links">Seguir</button>
+        </li>
+        <li class="navbar-items" id="6">
+          <div class="by-user"> 
+            <img class="photo-User" src="../../assets/img/user7.svg" alt="">
+            <div>
+              <h4>Filipe Gutierry</h4>
+              <span>Full Stack Developer</span>
+            </div>
+          </div>
+          <button class="navbar-link navbar-links">Seguir</button>
+        </li>
+      </ul>
+    </aside>
+
+  </main>
+</body>
+
+
 </html>

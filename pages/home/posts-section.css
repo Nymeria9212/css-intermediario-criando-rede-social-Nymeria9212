@@ -1,0 +1,96 @@
+.inputs-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 22px;
+
+    position: absolute;
+    width: 713px;
+    height: 264px;
+    left: 100px;
+    top: 224px;
+
+    background-color: var(--color-white-fixed);
+}
+
+.section-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 52px;
+
+    position: absolute;
+    width: 713px;
+    height: 1126px;
+    left: 100px;
+    top: 540px;
+
+}
+
+.section-posts h2 {
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-size-28);
+    line-height: var(--line-height-40);
+
+    color: var(--color-grey-1);
+}
+
+.post-user {
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+    width: 190px;
+    height: 52px;
+    left: 100px;
+    top: 146px;
+}
+
+
+.textArea {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.title-Post {
+    width: 713px;
+    height: 52px;
+
+    background: var(--color-white-fixed);
+
+    border: 2px solid var(--color-grey-4);
+    border-radius: var(--radius-1);
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.text-Post {
+    width: 713px;
+    height: 130px;
+    border: 2px solid var(--color-grey-4);
+    border-radius: var(--radius-1);
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.postar{
+    width: 69px;
+height: 38px;
+background: var(--brand-1);
+
+color: var(--color-white-fixed);
+border: 2px solid var(--brand-1);
+border-radius: var(--radius-1);
+}
