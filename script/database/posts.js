@@ -55,7 +55,7 @@ function postPublicado(post) {
       <p>${text}</p>
   </div>
   <div class="buttons-post">
-      <button class="open_post">Abrir Post</button>
+      <button class="open_post" >Abrir Post</button>
     <div class="likes">
       <button class="button-like" ><img class="heart" src="./assets/img/coracao-72.png" alt=" heart like"></button>
       <p>0</p>

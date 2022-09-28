@@ -1,3 +1,6 @@
+.list-navbar{
+    width: 100%;
+}
 .navbar{
     background-color: var(--color-white-fixed);
     padding: 1.75rem 0;
@@ -9,12 +12,12 @@
     align-items: flex-start;
     padding: 0px;
     gap: 32px;
-    
-    position: absolute;
-    width: 421px;
+    margin-top: 150px;
+    position: sticky;
+    width: 28%;
     height: 363px;
     left: 940px;
-    top: 134px;
+    top:134px;
     
    
 }
@@ -25,9 +28,10 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 144px;
+   
     margin: 30px 0;
     padding: 0.25rem;
+    width: 100%;
 }
 
 .navbar-links{
@@ -49,6 +53,8 @@
     font-weight: 400;
     cursor: pointer;
 }
+
+
 
 .navbar-link:hover, .navbar-link.actived{
     background-color: var(--color-grey-2);

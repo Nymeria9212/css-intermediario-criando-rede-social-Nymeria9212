@@ -1,0 +1,68 @@
+.ativa-modal {
+    display: none;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #00000040;
+}
+
+.modal-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    padding: 40px 24px;
+
+    isolation: isolate;
+
+    position: fixed;
+    width: 50%;
+    height: 80vh;
+    left: 340px;
+    top: 15vh;
+
+    /* Grey Scale/white-fixed */
+
+    background-color: #FFFFFF;
+    border-radius: 8px;
+
+}
+
+.modal-post button {
+    height: 12%;
+    width: 8%;
+    border-radius: 3rem;
+    border: transparent;
+    background-color: var(--color-grey-4);
+    cursor: pointer;
+}
+.modal-post .conteudo-post h3{
+    font-size: var(--font-size-28);
+}
+.modal-post .conteudo-post p{
+    font-size: var(--font-size-16);
+}
+
+.usuario-header {
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    margin: 0 0 8%;
+}
+
+.usuario-header img {
+    width: 10%;
+}
+
+.conteudo-post {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    max-width: 100%;
+    max-height: 70%;
+    gap: 10%;
+}
+

@@ -5,11 +5,13 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/globalStyles.css" />
   <link rel="stylesheet" href="./pages/home/style.css" />
   <link rel="stylesheet" href="./styles/navbar.css">
-  <link rel="stylesheet" href="./pages/home/posts-section.css">
-  <link rel="stylesheet" href="./pages/home/style_post.css">
+  <link rel="stylesheet" href="./styles/posts-section.css">
+  <link rel="stylesheet" href="./styles/style_post.css">
+  <link rel="stylesheet" href="./styles/modal.css">
   <script defer src="./script/database/users.js"></script>
   <script defer src="./script/database/posts.js"></script>
   <script defer src="./script/database/sugestUsers.js"></script>
@@ -47,9 +49,9 @@
     </section>
     <aside class="navbar">
       <h2>Sugestões para você seguir</h2>
-      <ul>
+      <ul class="list-navbar">
         <li class="navbar-items" id="3">
-          <div class="by-user"> 
+          <div class="by-user">
             <img class="photo-User" src="./assets/img/user3.svg" alt="">
             <div>
               <h4>Carlos Lima</h4>
@@ -59,7 +61,7 @@
           <button class="navbar-link navbar-links">Seguir</button>
         </li>
         <li class="navbar-items" id="7">
-          <div class="by-user"> 
+          <div class="by-user">
             <img class="photo-User" src="./assets/img/user6.svg" alt="">
             <div>
               <h4>Larissa Camargo</h4>
@@ -69,7 +71,7 @@
           <button class="navbar-link navbar-links">Seguir</button>
         </li>
         <li class="navbar-items" id="6">
-          <div class="by-user"> 
+          <div class="by-user">
             <img class="photo-User" src="./assets/img/user7.svg" alt="">
             <div>
               <h4>Filipe Gutierry</h4>
@@ -82,6 +84,8 @@
     </aside>
 
   </main>
+  <div class="modal ativa-modal">
+      </div>
 </body>
 
 

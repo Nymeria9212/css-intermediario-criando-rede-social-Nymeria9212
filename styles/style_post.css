@@ -6,14 +6,15 @@
     gap: 20px;
 
     margin: 0 0 40px 0;
-    width: 713px;
-    height: 310px;
+    width: 100%;
+    height: 21.5625rem;
+
     background-color: var(--color-white-fixed);
 }
 
 .post-User .post h3 {
-    width: 713px;
-    height: 80px;
+    width: 100%;
+    height: 105px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -25,7 +26,7 @@
 }
 
 .post-User .post p {
-    width: 713px;
+    width: 80%;
     height: 56px;
 
     font-family: var(--font-family-1);
@@ -53,7 +54,7 @@
     padding: 0px;
     gap: 12px;
 
-    width: 44.5625rem;
+    width: 100%;
     height: 3.25rem;
     background-color: var(--color-white-fixed);
 }
@@ -99,8 +100,8 @@
     padding: 0px;
     gap: 20px;
 
-    width: 713px;
-    height: 156px;
+    width: 100%;
+    height: 12rem;
     flex: none;
     order: 1;
     align-self: stretch;
@@ -109,7 +110,7 @@
 
 
 .open_post {
-
+    cursor: pointer;
     width: 92px;
     height: 38px;
 
@@ -127,9 +128,10 @@
 
     color: var(--color-white-fixed);
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    
+}
+.open_post:hover{
+    background-color: var(--color-grey-3);
 }
 
 .buttons-post {
@@ -139,7 +141,7 @@
     padding: 0px;
     gap: 32px;
 
-    width: 713px;
+    width: 100%;
     height: 38px;
 
     flex: none;
@@ -148,6 +150,8 @@
     flex-grow: 0;
     background-color: var(--color-white-fixed);
 }
+
+
 .button-like{
     border: none;
     background-color: transparent;
@@ -161,10 +165,6 @@
 
     width: 46.76px;
     height: 20px;
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 
