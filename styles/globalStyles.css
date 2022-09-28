@@ -15,14 +15,14 @@
     --radius-1: 0.25rem;
     --font-family-1: "Inter", sans-serif;
 
-    --font-size-28: 175%;
+    --font-size-28: 130%;
     --font-size-20: 125%;
     --font-size-16: 100%;
-    --font-size-14: 0.875rem;
-    --font-size-12: 0.75rem;
+    --font-size-14: 90%;
+    --font-size-12: 90%;
 
     --line-height-40:2.5rem;
-    --line-height-24:1.5rem;
+    --line-height-24:200%;
     --line-height-28:1.75rem;
     --line-height-16:1rem;
     --line-height-17: 1.0625rem;

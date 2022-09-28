@@ -5,7 +5,7 @@
 .modal {
     width: 100vw;
     height: 100vh;
-    position: fixed;
+    position: relative;
     background-color: #00000040;
 }
 

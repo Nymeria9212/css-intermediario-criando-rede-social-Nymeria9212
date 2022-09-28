@@ -12,9 +12,9 @@
     align-items: flex-start;
     padding: 0px;
     gap: 32px;
-    margin-top: 150px;
-    position: sticky;
+    position:sticky;
     width: 28%;
+    margin-top: 10%;
     height: 363px;
     left: 940px;
     top:134px;
@@ -27,12 +27,17 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
    
-    margin: 30px 0;
+    margin: 10% 0;
     padding: 0.25rem;
     width: 100%;
 }
+.navbar-items .by-user img{
+    height: 10%;
+    width: 10%;
+}
+
 
 .navbar-links{
     display: flex;
@@ -45,8 +50,8 @@
 .navbar-link{
     background-color: transparent;
     color: var(--color-grey-1);
-    height: 2rem;
-    padding: 0.5rem;
+    height: 10%;
+    padding: 2%;
     border-radius: var(--radius-1);
     text-decoration: none;
     font-size: 0.875rem;
@@ -60,3 +65,14 @@
     background-color: var(--color-grey-2);
 }
 
+@media (max-width:666px) {
+    .navbar-items .by-user h4{
+        font-size: 57%;
+    }
+    .navbar-items .by-user span{
+    font-size: 50%;
+    }
+    .navbar h2{
+        font-size: 50%;
+    }
+}

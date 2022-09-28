@@ -19,8 +19,9 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: var(--font-size-28);
-    line-height: var(--line-height-40);
+    margin-top: 10%;
+    font-size: clamp(30%, 110%,120%);
+    line-height: 120%;
 
     color: var(--color-grey-1);
 }
@@ -32,7 +33,7 @@
     font-family: var(--font-family-1);
     font-style: normal;
     font-weight: 400;
-    font-size: var(--font-size-16);
+    font-size: clamp(30%, 100%, 150%);
     line-height: var(--line-height-28);
 
     color: var(--color-grey-2);
@@ -89,8 +90,8 @@
 
 .photo-User {
 
-    max-width: 52px;
-    max-height: 52px;
+    max-width: 80%;
+    max-height: 80%;
 }
 
 .post {
