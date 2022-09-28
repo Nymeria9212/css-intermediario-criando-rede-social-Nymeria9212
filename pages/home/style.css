@@ -1,6 +1,8 @@
 
 body {
-    max-width: 100%;
+    
+    width: 100%;
+    
 }
 
 header {
@@ -50,5 +52,6 @@ header button {
 }
 main{
     width: 100%;
-    display: flex;
+  
+   
 }
