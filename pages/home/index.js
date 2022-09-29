@@ -18,20 +18,22 @@ function criandoModal(post) {
 
   textModal.id = id
   textModal.innerHTML = `
-    <button class="close-modal">X</button>
+    <div class="header-modal">
       <div class="usuario-header">
-        <img src=${photo}>
-        <div class="name">
-          <h2>${nome}</h2>
-          <p>${profissao}</p>
+          <img src=${photo}>
+          <div class="name">
+            <h2>${nome}</h2>
+            <p>${profissao}</p>
+          </div>
         </div>
-      </div>
+        <button class="close-modal">X</button>
+    </div>
       <div class="conteudo-post">
         <h3>${title}</h3>
         <p>${text}</p>
       </div>
     `
-   
+
 
   modal.append(textModal)
   return textModal
@@ -50,13 +52,13 @@ for (let i = 0; i < botaoPost.length; i++) {
   )
 }
 
-function closeModal1(){
-  let closeModal=document.querySelector('.close-modal')
-  let modalPost= document.querySelector('.modal-post')
-closeModal.addEventListener("click",function(){
-  modal.classList.add('ativa-modal')
-  modalPost.remove()
-})
+function closeModal1() {
+  let closeModal = document.querySelector('.close-modal')
+  let modalPost = document.querySelector('.modal-post')
+  closeModal.addEventListener("click", function () {
+    modal.classList.add('ativa-modal')
+    modalPost.remove()
+  })
 
 }
 
